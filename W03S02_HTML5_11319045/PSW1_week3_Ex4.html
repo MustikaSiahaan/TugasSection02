@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>New Attribute Form Control HTML5</title>
+	<body>
+		
+		<div>
+			<h3>Autocomplete</h3>
+			<input type="text" name="autocomplete" autocomplete="off">
+		</div>
+		
+		<div>
+			<h3>Autofocus</h3>
+			<input type="text" name="autofocus" autofocus>
+		</div>
+		
+		<div>
+			<h3>Formnovalidate</h3>
+			<p>Does the same thing as if the attribute novalidate had been aplied to the<form>element.
+		</p>
+			<input type="submit" formnovalidate value="Don't validate">		
+		</div>
+		
+		<div>
+			<h3>list</h3>
+			<input type="text" name="character" list="data-list">
+			<datalist id="data-list">
+				<option value="Mangga">
+				<option value="Pisang">
+				<option value="Jambu">
+				<option value="Nanas">
+				<option value="Pepaya">
+			</datalist>
+		</div>
+
+		<div>
+			<h3>max</h3>
+			<input type="range" max="95">
+		</div>
+		
+		<div>
+			<h3>min</h3>
+			<input type="range" min="2">
+		</div>		
+		
+		<div>
+			<h3>multiple</h3>
+			<input type="file" multiple>
+		</div>
+		
+		<div>
+			<h3>readonly</h3>
+			<input type="text" readonly>
+		</div>
+		
+		<div>
+			<h3>required</h3>
+			<input type="text" name="required" required>
+		</div>
+		
+		<div>
+			<h3>Pattern (only allows uppercase letters)</h3>
+			<input type="text" pattern="[A-Z]*">
+		</div>
+		
+		<div>
+			<h3>Placeholder</h3>
+			<input type="text" name="placeholder" placeholder="Enter here">
+		</div>
+		
+		<div>
+			<h3>Spellcheck</h3>
+			<input type="text" spellheck="true">
+		</div>
+		
+		<div>
+			<h3>Step</h3>
+			<input type="number" step="5">
+		</div>
+		
+		<div>
+			<h3>Char Length</h3>
+			<input type="text" minlength="5" maxlength="10">
+		</div>
+		
+		<div>
+			<input type="submit" value="Send">
+		</div>
+	</body>
+</html>	
